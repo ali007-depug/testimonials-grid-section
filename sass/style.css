@@ -155,6 +155,7 @@ html {
 
 .attribution {
   text-align: center;
+  font-size: clamp(0.6875rem, 0.282vw + 0.621rem, 0.875rem);
 }
 .attribution a {
   background-color: hsl(219, 29%, 14%);
