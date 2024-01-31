@@ -1,6 +1,7 @@
 @use "../abstracts/" as*;
 .attribution{
     text-align: center;
+  font-size: clamp(rem(11), 0.282vw + 0.621rem, rem(14));
     
     a{
         background-color: $p-Very-dark-blackish-blue;
