@@ -1,0 +1,17 @@
+@use "../abstracts/" as*;
+.attribution{
+    text-align: center;
+    
+    a{
+        background-color: $p-Very-dark-blackish-blue;
+        color:$p-White;
+        padding:  rem(5) rem(10);
+        border-radius: rem(8);
+        border: 1px solid $p-Moderate-violet;
+        &:hover{
+            background-color: $p-Moderate-violet;
+            border-color: $p-Very-dark-blackish-blue;
+        }
+    }
+
+}
