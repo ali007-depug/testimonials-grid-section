@@ -1,11 +1,11 @@
 @use "../abstracts/" as *;
 .attribution {
   text-align: center;
-  font-size: clamp(rem(11), 0.282vw + 0.621rem, rem(14));
+//   font-size: clamp(rem(11), 0.282vw + 0.621rem, rem(14));
   font-size: rem(11);
-    @include breakpoint(lg){
-        font-size: rem(15);
-    }
+    // @include breakpoint(lg){
+    //     font-size: rem(15);
+    // }
   a {
     background-color: $p-Very-dark-blackish-blue;
     color: $p-White;
